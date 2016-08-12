@@ -1,0 +1,10 @@
+name: EachOneTeachOne
+version: 1.0
+description: School based teaching plugin for ease of use.
+authors: [Synapz_]
+main: me.synapz.eoto.EOTO
+
+commands:
+   test:
+      description: test
+      aliases: [t]
