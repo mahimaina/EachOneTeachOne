@@ -19,8 +19,6 @@ public class CommandUtil {
     // TODO: Send messages to CommandSender and targets after Messenger is done
 
     public static void freeze(CommandSender sender, List<UUID> targets, boolean freeze) {
-        targets = Utils.filterOffline(targets);
-
         for (UUID uuid : targets) {
             if (freeze) {
                 if (!frozen.contains(uuid))

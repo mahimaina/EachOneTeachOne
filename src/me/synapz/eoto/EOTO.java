@@ -1,7 +1,7 @@
 package me.synapz.eoto;
 
 import me.synapz.eoto.commands.CommandManager;
-import me.synapz.eoto.commands.EOTOCommand;
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class EOTO extends JavaPlugin {
@@ -32,9 +32,6 @@ public class EOTO extends JavaPlugin {
      * Must be called after CommandManager.getManager().init() is called
      */
     private void registerCommands() {
-        for (EOTOCommand cmd : CommandManager.getManager().getAllCommands()) {
-            // sets the current eoto iteration executor to the main command manager class to handle it
-            getCommand(cmd.getName()).setExecutor(CommandManager.getManager());
-        }
+        getCommand("eoto").setExecutor(CommandManager.getManager());
     }
 }

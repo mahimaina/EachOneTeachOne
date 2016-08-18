@@ -2,14 +2,14 @@ package me.synapz.eoto;
 
 import org.bukkit.entity.Player;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 /*
  * Wrapper class to wrap a Player who is a Teacher (found inside students.yml)
  */
 public class Teacher {
+
+    public static final Map<UUID, Teacher> teachers = new HashMap<>();
 
     private final Player teacher;
     private final List<UUID> students;
@@ -26,6 +26,8 @@ public class Teacher {
         lesson = null;
 
         giveItems();
+
+        teachers.put(teacher.getUniqueId(), this);
     }
 
     /**
