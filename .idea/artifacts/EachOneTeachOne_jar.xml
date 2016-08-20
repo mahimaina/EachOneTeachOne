@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="EachOneTeachOne:jar">
-    <output-path>$USER_HOME$/Server/plugins</output-path>
-    <root id="archive" name="EachOneTeachOne.jar">
-      <element id="module-output" name="EachOneTeachOne" />
-    </root>
-  </artifact>
-</component>
