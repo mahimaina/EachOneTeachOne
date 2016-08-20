@@ -2,6 +2,7 @@ package me.synapz.eoto.commands;
 
 import static org.bukkit.ChatColor.*;
 
+import me.synapz.eoto.commands.executors.*;
 import me.synapz.eoto.utils.Utils;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -25,7 +26,8 @@ public class CommandManager implements CommandExecutor {
     }
 
     public void init() {
-        addCommands(new Help(), new Fly(), new NoFly());
+        addCommands(new Help(), new Fly(), new NoFly(), new Exp(), new Feed(), new Freeze(), new Gamemode(), new Heal(), new Kill(),
+                new Msg(), new Tp(), new Unfreeze());
     }
 
     @Override
@@ -85,8 +87,10 @@ public class CommandManager implements CommandExecutor {
      * @return If the correct arguments were supplied
      */
     private boolean isCorrectArgs(CommandSender sender, EOTOCommand command, int argCount) {
-        if (Arrays.asList(command.handledArgs()).contains(argCount)) {
-            return true;
+        // TODO: Remove
+        for (int value : command.handledArgs()) {
+            if (value == argCount)
+                return true;
         }
 
         // not the correct usage, return false and send error message

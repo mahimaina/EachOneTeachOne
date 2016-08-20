@@ -27,9 +27,7 @@ public class Messenger {
 
     public static void info(CommandSender sender, String...msg) {
         for (String str : msg) {
-            for (String str1 : str.split("/n")) {
-                sender.sendMessage(DARK_GRAY + "[" + GOLD + "" + BOLD + "EOTO" + DARK_GRAY + "] " + ChatColor.GOLD + str1);
-            }
+            sender.sendMessage(DARK_GRAY + "[" + GOLD + "" + BOLD + "EOTO" + DARK_GRAY + "] " + GOLD + str);
         }
     }
 

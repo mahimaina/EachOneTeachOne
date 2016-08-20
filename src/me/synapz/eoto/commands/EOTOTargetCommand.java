@@ -13,12 +13,14 @@ import java.util.UUID;
 public abstract class EOTOTargetCommand extends EOTOCommand {
 
     protected List<UUID> targets = new ArrayList<>();
-    protected Player sender;
+    protected CommandSender sender;
     protected String[] args;
 
     @Override
     public void onCommand(CommandSender sender, String[] args) {
         this.args = args;
+        this.sender = sender;
+
         String strTarget = args[getTargetArg()];
 
         if (strTarget.equalsIgnoreCase("all")) {
@@ -51,6 +53,8 @@ public abstract class EOTOTargetCommand extends EOTOCommand {
         } else {
             stuffToDoToTargets();
         }
+
+        targets = new ArrayList<>();
     }
 
     public abstract int getTargetArg();

@@ -1,10 +1,11 @@
-package me.synapz.eoto.commands;
+package me.synapz.eoto.commands.executors;
 
-import me.synapz.eoto.CommandUtil;
+import me.synapz.eoto.utils.CommandUtil;
+import me.synapz.eoto.commands.EOTOTargetCommand;
 
-public class NoFly extends EOTOTargetCommand {
+public class Heal extends EOTOTargetCommand {
 
-    // eoto nofly <player/all>
+    // eoto heal <player/all>
 
     @Override
     public int getTargetArg() {
@@ -13,17 +14,17 @@ public class NoFly extends EOTOTargetCommand {
 
     @Override
     public void stuffToDoToTargets() {
-        CommandUtil.fly(sender, targets, false);
+        CommandUtil.heal(sender, targets);
     }
 
     @Override
     public String getName() {
-        return "nofly";
+        return "heal";
     }
 
     @Override
     public String getPermission() {
-        return "eoto.nofly";
+        return "eoto.heal";
     }
 
     @Override
@@ -38,6 +39,6 @@ public class NoFly extends EOTOTargetCommand {
 
     @Override
     public String getDescription() {
-        return "Disable fly for selection";
+        return "Heal selection";
     }
 }

@@ -1,5 +1,6 @@
-package me.synapz.eoto.commands;
+package me.synapz.eoto.commands.executors;
 
+import me.synapz.eoto.commands.EOTOCommand;
 import me.synapz.eoto.utils.Utils;
 import org.bukkit.command.CommandSender;
 

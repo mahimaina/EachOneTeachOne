@@ -1,10 +1,11 @@
-package me.synapz.eoto.commands;
+package me.synapz.eoto.commands.executors;
 
-import me.synapz.eoto.CommandUtil;
+import me.synapz.eoto.utils.CommandUtil;
+import me.synapz.eoto.commands.EOTOTargetCommand;
 
-public class Fly extends EOTOTargetCommand {
+public class Feed extends EOTOTargetCommand {
 
-    // eoto fly <player/all>
+    // eoto feed <player/all>
 
     @Override
     public int getTargetArg() {
@@ -13,17 +14,17 @@ public class Fly extends EOTOTargetCommand {
 
     @Override
     public void stuffToDoToTargets() {
-        CommandUtil.fly(sender, targets, true);
+        CommandUtil.feed(sender, targets);
     }
 
     @Override
     public String getName() {
-        return "fly";
+        return "feed";
     }
 
     @Override
     public String getPermission() {
-        return "eoto.fly";
+        return "eoto.feed";
     }
 
     @Override
@@ -38,6 +39,6 @@ public class Fly extends EOTOTargetCommand {
 
     @Override
     public String getDescription() {
-        return "Enable fly for selection";
+        return "Feed selection";
     }
 }

@@ -44,4 +44,21 @@ public class Utils {
 
         }
     }
+
+    public static int[] allArguments() {
+        int[] ints = new int[199];
+        for (int i = 1; i < 200; i++) {
+            ints[i] = i;
+        }
+        return ints;
+    }
+
+    public static String messagerBuilder(String[] args) {
+        String msg = "";
+        for (int i = 1; i < args.length; i++) {
+            // if i-1 == args, its the last run so we need to remove the " " at the end
+            msg = i+1 == args.length ? msg + args[i] : msg + args[i] + " ";
+        }
+        return msg;
+    }
 }
