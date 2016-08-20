@@ -7,43 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed6449e4-ead3-4d32-b8d5-c85abb926fbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Exp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Feed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Freeze.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Gamemode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Heal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Kill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Msg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Tp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Unfreeze.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/lesson/End.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/lesson/Ext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/lesson/Set.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/lesson/Spawn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/files/StudentsFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/listeners/FreezeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/listeners/TeacherJoin.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/commands/Fly.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/commands/Help.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/commands/NoFly.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/CommandUtil.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/utils/CommandUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/commands/Fly.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Fly.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/commands/Help.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Help.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/commands/NoFly.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/NoFly.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/CommandUtil.class" afterPath="$PROJECT_DIR$/target/classes/me/synapz/eoto/CommandUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/EOTO.class" afterPath="$PROJECT_DIR$/target/classes/me/synapz/eoto/EOTO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/commands/CommandManager.class" afterPath="$PROJECT_DIR$/target/classes/me/synapz/eoto/commands/CommandManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/commands/EOTOTargetCommand.class" afterPath="$PROJECT_DIR$/target/classes/me/synapz/eoto/commands/EOTOTargetCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/utils/Messenger$Usage.class" afterPath="$PROJECT_DIR$/target/classes/me/synapz/eoto/utils/Messenger$Usage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/utils/Messenger.class" afterPath="$PROJECT_DIR$/target/classes/me/synapz/eoto/utils/Messenger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/me/synapz/eoto/utils/Utils.class" afterPath="$PROJECT_DIR$/target/classes/me/synapz/eoto/utils/Utils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/EOTO.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/EOTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/commands/CommandManager.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/CommandManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/commands/EOTOTargetCommand.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/commands/EOTOTargetCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/files/EOTOFile.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/files/EOTOFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/utils/Messenger.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/utils/Messenger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/me/synapz/eoto/utils/Utils.java" afterPath="$PROJECT_DIR$/src/me/synapz/eoto/utils/Utils.java" />
     </list>
     <ignored path="EachOneTeachOne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,16 +31,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentsFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentsFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/synapz/eoto/files/StudentsFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+            <state relative-caret-position="-28">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
                 <element signature="e#558#559#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/me/synapz/eoto/EOTO.java" />
         <option value="$PROJECT_DIR$/src/me/synapz/eoto/files/StudentsFile.java" />
         <option value="$PROJECT_DIR$/src/me/synapz/eoto/listeners/TeacherJoin.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -525,7 +501,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -536,7 +512,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32772276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32772276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -573,14 +549,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/me/synapz/eoto/commands/EOTOCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/synapz/eoto/commands/executors/Fly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1009,13 +977,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/synapz/eoto/files/StudentsFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        <state relative-caret-position="-28">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
