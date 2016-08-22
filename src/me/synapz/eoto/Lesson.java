@@ -80,5 +80,13 @@ public class Lesson {
      */
     public void setLessonSpawn(Location location) {
         this.spawn = location;
+
+        for (UUID student : Utils.filterOffline(teacher.getStudents())) {
+            Player player = Bukkit.getPlayer(student);
+
+            if (student != null) {
+                player.teleport(player);
+            }
+        }
     }
 }

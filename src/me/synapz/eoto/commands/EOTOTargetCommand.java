@@ -30,7 +30,7 @@ public abstract class EOTOTargetCommand extends EOTOCommand {
                 Teacher teacher = Teacher.teachers.get(playerSender.getUniqueId());
 
                 if (teacher == null) {
-                    Messenger.error(playerSender, "You are not a teacher!");
+                    Messenger.error(playerSender, Messenger.NOT_A_TEACHER);
                     return;
                 }
 

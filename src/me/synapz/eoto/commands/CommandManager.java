@@ -3,6 +3,9 @@ package me.synapz.eoto.commands;
 import static org.bukkit.ChatColor.*;
 
 import me.synapz.eoto.commands.executors.*;
+import me.synapz.eoto.commands.lesson.*;
+import me.synapz.eoto.commands.lesson.Set;
+import me.synapz.eoto.utils.Messenger;
 import me.synapz.eoto.utils.Utils;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -27,7 +30,7 @@ public class CommandManager implements CommandExecutor {
 
     public void init() {
         addCommands(new Help(), new Fly(), new NoFly(), new Exp(), new Feed(), new Freeze(), new Gamemode(), new Heal(), new Kill(),
-                new Msg(), new Tp(), new Unfreeze());
+                new Msg(), new Tp(), new Unfreeze(), new End(), new Ext(), new Set(), new Spawn());
     }
 
     @Override
@@ -39,8 +42,10 @@ public class CommandManager implements CommandExecutor {
 
         EOTOCommand command = commands.get(args[0]);
 
-        if (command == null)
+        if (command == null) {
+            Messenger.error(sender, "Unknown command.", "Type /eoto help for a list of commands!");
             return true;
+        }
 
         try {
             if (commandChecks(command, sender, args.length)) {

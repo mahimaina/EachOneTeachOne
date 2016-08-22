@@ -13,7 +13,9 @@ import static org.bukkit.ChatColor.*;
  */
 public class Messenger {
 
+    public static String NOT_A_TEACHER = "You are not a teacher!";
     public static String PLAYER_ONLY_COMMAND = "You must be a player to execute this command!";
+    public static String NOT_A_NUMBER = "Please ender a valid number";
 
     public static void error(CommandSender sender, String... msg) {
         for (String str : msg)

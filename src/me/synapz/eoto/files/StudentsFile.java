@@ -25,6 +25,9 @@ public class StudentsFile extends EOTOFile {
 
     private void loadStudentFiles() {
         for (String teacherUUID : fileConfig.getConfigurationSection("Students").getKeys(false)) {
+            if (teacherUUID.equals("teacher-uuid"))
+                continue;
+
             UUID teacherToLoad = UUID.fromString(teacherUUID);
             Player teacher = Bukkit.getPlayer(teacherToLoad);
 
